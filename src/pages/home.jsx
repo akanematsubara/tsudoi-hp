@@ -232,8 +232,8 @@ const Home = () => {
           </section>
         </main>
         {/* <script>new Splide( '.splide' ).mount();</script> */}
-        <Footer/>
       </div>
+      <Footer/>
     </>
   );
 };
