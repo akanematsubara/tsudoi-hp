@@ -15,6 +15,7 @@ const footer = {
     display: "flex",
     alignItems: "center",
     padding: "18px 120px",
+    boxSizing: "border-box",
     fontSize: "16px",
     fontWeight: "bold",
     lineHeight: 1.5,
@@ -28,6 +29,7 @@ const phoneFooter = {
     flexFlow: "column",
     padding: "24px 24px 36px 24px",
     flexWrap: "wrap",
+    boxSizing: "border-box",
     fontSize: "14px",
     fontWeight: "bold",
     lineHeight: 1.8,
@@ -48,8 +50,8 @@ const snsIcon = {
 }
 const icons = {
     textAlign: "right",
-    width: "100%",
-    marginRight: "24px",
+    flex: 1,
+    minWidth: 0,
 }
 const phoneIcons = {
     width: "100%",
