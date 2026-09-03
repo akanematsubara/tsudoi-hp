@@ -42,7 +42,7 @@ const News = () => {
                 </p>
             </div>
             <div style={imgBox}>
-                {item.img !== "" && <img src={`${process.env.PUBLIC_URL}` + item.img} alt="写真" style={img} />}
+                {item.img !== "" && <img src={`${process.env.PUBLIC_URL}` + item.img} alt="写真" style={img} loading="lazy" decoding="async" />}
             </div>
         </div>
     ));
